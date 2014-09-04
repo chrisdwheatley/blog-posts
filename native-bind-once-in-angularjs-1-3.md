@@ -29,8 +29,8 @@ A clever nuance of the feature is the fact that while an expression is undefined
 
 Here it is in action with a basic email client app.
 
-<a class="jsbin-embed" href="http://jsbin.com/yufomo/15/embed?output"></a><script src="http://static.jsbin.com/js/embed.js"></script>
+<a class="jsbin-embed" href="http://jsbin.com/yufomo/16/embed?output"></a><script src="http://static.jsbin.com/js/embed.js"></script>
 
-Once logged in the email address displayed is bound once as it won't change, if you logout then a watcher will be readded to the expression. The email subjects are also bound once as they won't change.
+Once logged in the email address displayed is bound once as it won't change, if you logout then a watcher will be re-added to the expression. The email subjects are also bound once as they won't change.
 
 As you can see bind once is simple to implement but powerful in execution.
