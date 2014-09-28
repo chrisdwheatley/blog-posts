@@ -1,3 +1,5 @@
+**Edit:** The pull request mentioned in this post highlighted a few issues with my inital thinking but the general gist of my idea is still applicable. If you want to ensure that search engines are consistent in how they display your page titles then follow my method below.
+
 #### Here's a quick tip for fellow Ghost bloggers to help make your page titles more consistent and possibly more SEO friendly at the same time.
 
 In the current version of Ghost (0.5.1) page titles are structured like so,
@@ -18,7 +20,7 @@ This feels a little disjointed. Personally I prefer something which offers more 
 
 **Post:**
 
-> Post title - Blog title - Blog description (e.g. Consistent Page Titles on Your Ghost Blog - Chris Wheatley - Software engineer surfing the front-end wave.)
+> Post title - Blog title (e.g. Consistent Page Titles on Your Ghost Blog - Chris Wheatley)
 
 #### How can we achieve this?
 
@@ -31,11 +33,11 @@ Amend the `<title></title>` tags within `default.hbs` with the following piece o
 ```
 <title>
   {{#if post.title}}
-  	{{post.title}} - {{@blog.title}} - {{@blog.description}}
+  	{{post.title}} - {{@blog.title}}
   {{else}}
   	{{@blog.title}} - {{@blog.description}}
   {{/if}}
 </title>
 ```
 
-You can always remove the blog description at the end of the title for something shorter or even add your own static text if you want.
+You can always add the blog description at the end of the title for something longer or even add your own static text if you want.
