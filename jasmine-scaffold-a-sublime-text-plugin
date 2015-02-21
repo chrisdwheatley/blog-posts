@@ -1,6 +1,6 @@
 [Jasmine Scaffold](https://packagecontrol.io/packages/Jasmine%20Scaffold) is a Sublime Text plugin aimed to make writing blocks of [Jasmine](https://github.com/jasmine/jasmine) unit test logic quick and easy.
 
-Rather than having to type out all those ugly curly braces and brackets you can simply type out your specification, run Jasmine Scaffold and you'll be ready to start start writing tests.
+Rather than having to type out all those ugly curly braces and brackets you can simply type out your specification, run Jasmine Scaffold and you'll be ready to start writing tests.
 
 Here's an example:
 
@@ -14,9 +14,12 @@ a unit of code
 		should return the correct error
 ```
 
-* Run Jasmine Scaffold:
-	* <kbd>Cmd</kbd> <kbd>Alt</kbd> <kbd>Shift</kbd> + <kbd>J</kbd> for OSX users
+* Run Jasmine Scaffold (you can run for the whole file or highlight a selection of your file and run only for that):
+	* <kbd>Ctrl</kbd> <kbd>Cmd</kbd> <kbd>Shift</kbd> + <kbd>J</kbd> for OSX users
 	* <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>Shift</kbd> + <kbd>J</kbd> for Windows & Linux users
+	
+		or
+	
 	* Right click within the file editor area and click 'Run Jasmine Scaffold'
 
 Your specification will immediately be formatted into JavaScript code ready for tests to be added. e.g.
