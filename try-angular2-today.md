@@ -1,4 +1,4 @@
-**The Angular team recently started publishing alpha versions of [Angular2](https://angular.io/) ([2.0.0-alpha.13](https://www.npmjs.com/package/angular2) at the time of writing).**
+**The Angular team recently started publishing alpha versions of [Angular2](https://angular.io/).**
 
 If you want to investigate what Angular2 is offering there are numerous projects and repositories emerging to help.
 
@@ -21,3 +21,5 @@ Here are just a few:
 * [Generator Angular2](https://github.com/swirlycheetah/generator-angular2) - First a disclaimer; this is a project of my own. It's a [Yeoman](http://yeoman.io/) generator which pulls in all the required dependencies and scaffold out a basic project structure.
 
 As you can see the Angular2 ecosystem is quickly growing but it's not too late to help shape the future of the project. If you have any feedback, thoughts or suggestions there's a [Gitter room](https://gitter.im/angular/angular), the [issue tracker](https://github.com/angular/angular/issues) and the [design documentation](https://drive.google.com/drive/#folders/0B7Ovm8bUYiUDR29iSkEyMk5pVUk) for reference.
+
+Want to add a project to this post? Submit a pull request to the [awesome-angular2](https://github.com/swirlycheetah/awesome-angular2) repository or for [this markdown file](https://github.com/swirlycheetah/blog-posts/blob/master/try-angular2-today.md).
