@@ -1,4 +1,4 @@
-The only way to ensure you're still importing a read only value ([`const`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)) with es2015's new module system is to explicitly import the value.
+The only way to ensure you're still importing a read only value ([`const`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)) with ES2015's new module system is to explicitly import the value.
 
 ##### _consts.js_
 
@@ -16,7 +16,7 @@ VERSION = '1.1.0'
 // this won't work as the value imported is still a const
 ```
 
-If you were to import any other way, you're creating a brand new object and assigning all the exported values to it, thus losing their read onlyness.
+If you were to import any other way, you're creating a brand new object and assigning all the exported values to it, thus losing their read only-ness.
 
 ##### _index.js_
 
