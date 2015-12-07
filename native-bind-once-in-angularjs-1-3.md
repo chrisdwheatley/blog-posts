@@ -2,7 +2,7 @@ A new feature landing in AngularJS 1.3 is the ability to bind an expression to a
 
 If you've ever worked with large `ng-repeat`'s then you may have come across performance issues attributed to the number of watchers on a view. Bind once aims to go some of the way towards alleviating this by allowing you to decrease the number of expressions being watched, making the digest loop faster and your application more performant.
 
-This is something which has been previously possible with Pasav's [bindonce](https://github.com/Pasvaz/bindonce) library but has proven so sought after that the AngularJS team have ported it into the core AngularJS library.
+This is something which has been previously possible with Pasvaz's [bindonce](https://github.com/Pasvaz/bindonce) library but has proven so sought after that the AngularJS team have ported it into the core AngularJS library.
 
 The syntax is simple, just prepend an expression with `::`. Here's some examples.
 
